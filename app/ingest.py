@@ -1,0 +1,1 @@
+#after I do the ml flow to decide which method chunking is best then I build an ingestion pipeline. 

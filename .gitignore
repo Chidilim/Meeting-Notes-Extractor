@@ -1,0 +1,5 @@
+.env
+.history/
+data/
+.pytest_cache/
+chroma/

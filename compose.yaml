@@ -1,0 +1,14 @@
+services:
+  api: 
+    build: .
+    ports: 
+
+  chromadb:
+    image: chromadb/chroma
+    volumes:
+      - chroma_data:/data
+    ports: "8000:8000" #outiside inside, anything arriving
+    healthcheck: #checks that the connection is up and running
+      test: []
+env_file:
+  - .env
